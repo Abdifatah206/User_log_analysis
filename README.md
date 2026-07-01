@@ -41,9 +41,6 @@ python-log-analyzer/
 ├── logs/
 │   └── auth.log
 │
-├── reports/
-│   └── report.txt
-│
 ├── analyzer.py
 ├── requirements.txt
 ├── README.md
@@ -78,19 +75,6 @@ Clone the repository.
 ```bash
 git clone https://github.com/yourusername/python-log-analyzer.git
 ```
-
-Navigate to the project directory.
-
-```bash
-cd python-log-analyzer
-```
-
-Install dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## Usage
@@ -111,27 +95,12 @@ python analyzer.py
 ========================================
 
 192.168.1.10 -> 3 failed attempts
-   Suspicious IP!
 
 203.0.113.50 -> 1 failed attempts
 
-Report saved to reports/report.txt
-```
-
----
-
-## Example Report
 
 ```
-Python Log Analyzer Report
 
-192.168.1.10 -> 3 failed attempts
-Suspicious IP
-
-203.0.113.50 -> 1 failed attempts
-```
-
----
 
 ## Skills Demonstrated
 
@@ -148,32 +117,9 @@ Suspicious IP
 
 ---
 
-## Future Improvements
-
-- Export reports to CSV
-- Export reports to HTML
-- GeoIP lookup for IP addresses
-- VirusTotal API integration
-- AbuseIPDB integration
-- Email alerts
-- Real-time log monitoring
-- Brute-force attack detection
-- Dashboard with charts
-- SIEM integration
-- Support for Windows Event Logs
-- Support for Apache and Nginx logs
-
----
-
 ## Learning Objectives
 
 This project demonstrates practical cybersecurity skills by combining Python programming with security log analysis. It provides experience in parsing logs, identifying suspicious activity, and automating incident reporting.
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
