@@ -73,7 +73,7 @@ Jul 12 10:15:01 server sshd[2345]: Failed password for invalid user admin from 1
 Clone the repository.
 
 ```bash
-git clone https://github.com/yourusername/python-log-analyzer.git
+git clone https://github.com/Abdifatah206/User_log_analysis/tree/main
 ```
 ---
 
