@@ -42,7 +42,6 @@ python-log-analyzer/
 │   └── auth.log
 │
 ├── analyzer.py
-├── requirements.txt
 ├── README.md
 └── screenshots/
 ```
