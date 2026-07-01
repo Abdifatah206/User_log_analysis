@@ -87,6 +87,8 @@ python analyzer.py
 
 ---
 ## Code
+
+```
 import re
 from collections import Counter
 log_file = "auth.log"
@@ -104,6 +106,8 @@ print("failed log analysis")
 print("=" * 40)
 for ip, count in counter.items():
     print(f"{ip} -> {count} failed attempts")
+```
+
 ## Example Output
 
 ```
